@@ -33,8 +33,8 @@
       <select id="kategori" required>
         <option value="">-- Pilih Kategori --</option>
         <option value="Jaringan">Jaringan / Internet</option>
-        <option value="Listrik">Listrik & Power</option>
-        <option value="Perangkat">Hardware / Perangkat Komputer</option>
+        <option value="Tidak konek & ganti kata sandi</option>
+        <option value="Perangkat">Hardware / Perangkat onu</option>
       </select>
     </div>
 
@@ -49,9 +49,11 @@
   <script>
     // 1. Mapping Daftar Nomor WA Teknisi berdasarkan Kategori
     const daftarTeknisi = {
-      "Jaringan": "6281234567890",   // Ganti dengan No WA Teknisi Jaringan
-      "Listrik": "6289876543210",    // Ganti dengan No WA Teknisi Listrik
-      "Perangkat": "6281112223334"   // Ganti dengan No WA Teknisi Hardware
+      "Los Merah Plaju": "6289531125113",   // Ganti dengan No WA Teknisi Jaringan
+      "Los Merah kertapati": "6289876543210",    // Ganti dengan No WA Teknisi Listrik
+      "Los merah jalan laut": "6283897702480"   // Ganti dengan No WA Teknisi Hardware
+      "Gangguan Koneksi Plaju (Ridho)": "62895615484197"   // Ganti dengan No WA Teknisi Hardware
+      "Gangguan koneksi Kertapati (Willy)": "62883189260404"   // Ganti dengan No WA Teknisi Hardware
     };
 
     function kirimKeWA() {
